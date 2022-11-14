@@ -3,7 +3,7 @@ require 'capybara'
 require 'capybara/rspec'
 require 'appium_capybara'
 require 'site_prism'
-require 'pry'
+require 'irb'
 
 caps = Appium.load_appium_txt file: File.expand_path('./', 'appium.txt'), verbose: true
 
